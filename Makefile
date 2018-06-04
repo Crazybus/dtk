@@ -2,8 +2,7 @@ default: build
 
 SHELL:=/bin/bash -eux
 
-VERSION = 1.0.0
-IMAGE = crazybus/dtk:${VERSION}
+IMAGE = crazybus/dtk
 
 build:
 	docker build -t ${IMAGE} .
